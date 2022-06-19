@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Bodoni+Moda:opsz@6..96&family=Cambay&family=Fahkwang:wght@200&family=Gotu&family=Mohave:wght@300&family=Oxanium:wght@200&family=Proza+Libre&family=Sunflower&family=ZCOOL+XiaoWei&display=swap');
+
+.hidden {
+    display: none;
+}
+.col {
+    margin: 4px;
+    width: 300px;
+    height: max-content;
+}
+.firstrow {
+    margin-top: 100px;
+}
+.gallery {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+body {
+    
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+a:hover {
+    color: rgb(28, 28, 28);
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+    margin-left: 20px;
+}
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.3rem;
+    font-family: 'Mohave', sans-serif;
+    letter-spacing: 1px;
+}
+.logo {
+    margin-top: 100px;
+    font-size: 3rem;
+    font-family: 'Gotu', sans-serif;
+}
+.home-display {
+    background-image: url(/assets/images/IMG_1668-2-2.png);
+    background-position-y: top;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+    background-position-x: right;
+    height: 800px;
+    margin-top: -480px;
+}
+/* media queries */
+@media screen and (min-width: 1024px) {
+    body {
+        background-position-y: top;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-position-y: -800px;
+        background-position-x: right;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    body {
+        background-position-y: top;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position-y: -600px;
+        background-position-x: -300px;
+    }
+}
+@media screen and (max-width: 767px) {
+
+}
